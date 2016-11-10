@@ -3,8 +3,8 @@
   <channel>
     <title>Riley F. Edmunds</title>
     <description>Undergraduate at UC Berkeley</description>
-    <link>rileyedmunds.com</link>
-    <atom:link href="rileyedmunds.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Scribble, a Jekyll theme</title>
@@ -71,8 +71,8 @@ Date is not a required header since Jekyll reads the file name for date, this wa
 Problem? &lt;a href=&quot;https://github.com/muan/scribble&quot;&gt;Use GitHub Issues&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 06 May 2013 09:27:31 -0700</pubDate>
-        <link>rileyedmunds.com/2013/05/06/scribble-the-jekyll-theme/</link>
-        <guid isPermaLink="true">rileyedmunds.com/2013/05/06/scribble-the-jekyll-theme/</guid>
+        <link>/2013/05/06/scribble-the-jekyll-theme/</link>
+        <guid isPermaLink="true">/2013/05/06/scribble-the-jekyll-theme/</guid>
       </item>
     
       <item>
@@ -106,8 +106,8 @@ Problem? &lt;a href=&quot;https://github.com/muan/scribble&quot;&gt;Use GitHub I
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 </description>
         <pubDate>Mon, 06 May 2013 08:27:31 -0700</pubDate>
-        <link>rileyedmunds.com/2013/05/06/more-post/</link>
-        <guid isPermaLink="true">rileyedmunds.com/2013/05/06/more-post/</guid>
+        <link>/2013/05/06/more-post/</link>
+        <guid isPermaLink="true">/2013/05/06/more-post/</guid>
       </item>
     
   </channel>
