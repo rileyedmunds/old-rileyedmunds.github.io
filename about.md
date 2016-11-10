@@ -3,10 +3,10 @@ layout: page
 title: About
 ---
 
-I'm Riley. I live in Berkeley, but was raised in Lucca, Italy. 
+I'm Riley.
 
-I study and do machine learning research at UC Berkeley.
+I study computers and do machine learning research at UC Berkeley. I plan to continue working on interesting projects during my time at Berkeley, and then pursue an MBA or a PhD in artificial intelligence.
 
-In my free time, I like to explore nature, spend quality time with friends, and read about psychology and social issues.
+I live in Chicago, but grew up in Lucca, Italy. In my free time, I like to explore nature, spend quality time with friends, and read psychology.
 
-Email at [rileyedmunds@berkeley.edu](rileyedmunds@berkeley.edu), read my code on [GitHub](http://github.com/rileyedmunds), and find my professional background on [LinkedIn](http://uk.linkedin.com/in/rileyedmunds).
+Email at rileyedmunds@berkeley.edu, read my code on [GitHub](http://github.com/rileyedmunds), and find my professional background on [LinkedIn](http://uk.linkedin.com/in/rileyedmunds).
