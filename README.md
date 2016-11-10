@@ -1,147 +1,57 @@
-# What's `jekyll-minimal-theme`?
+Scribble
+========
 
-It's another minimal(istic) Jekyll static site generator theme,
-that is, a ready-to-fork template pack.
+A Jekyll theme. [Want a demo? click and read instruction. :point_left:](http://scribble.muan.co/2013/05/06/scribble-the-jekyll-theme/)
+<br />
+[More themes](https://github.com/muan/muan.github.com/releases).
 
-See a live demo @ [`henrythemes.github.io/jekyll-minimal-theme` »](http://henrythemes.github.io/jekyll-minimal-theme)
+![screenshot](https://cloud.githubusercontent.com/assets/1153134/11014801/12c7940a-853e-11e5-9f7b-87325c9bc695.png)
 
-For example:
+There is no clever design philosophy to talk about, I tried to find something to work with, and 'scribble' came to my mind.
 
-```
-├── _config.yml                               # site configuration
-├── _posts                                    # sample blog posts
-|   ├── 2014-05-05-sportdb-update-v192.md     #   filename format:
-|   ├── 2014-10-10-new-repo-baviria-bayern.md #    => YEAR-MONTH-DAY-TITLE.MARKUP
-|   ├── 2014-10-21-sql-views.md
-|   ├── 2014-11-11-new-reop-maps.md
-|   └── 2014-12-15-quick-starter-datafiles.md
-├── _layouts                           
-|   ├── default.html                   # master layout template
-|   └── post.html                      # single blog post template
-├── css                               
-|   ├── _settings.scss                 # style settings (e.g. variables)
-|   └── style.scss                     # master style page
-├── feed.xml                           # web feed template (e.g. in atom format)
-├── archive.html                       # archive template
-└── index.html                         # index template
-```
+This theme uses Open Sans powered by Google Web Fonts, and was written in plain HTML, SCSS & CoffeeScript, though .scss & .coffee files wouldn't be included in the theme.
 
-will result in (with `permalink: /:title.html`):
+The theme is mobile optimized but I did not check browser compatibility. It looks great in Chrome, Safari and Firefox though.
 
-```
-└── _site                                # output build folder; site gets generated here
-    ├── css
-    |   └── style.css                    # styles for pages (copied 1:1 as is)
-    ├── sportdb-update-v192.html         # blog post page
-    ├── new-repo-baviria-bayern.html     # another blog post page
-    ├── sql-views.html                   #  ""
-    ├── new-repo-maps.html               #  ""
-    ├── quick-starter-datafiles.html     #  ""
-    ├── feed.xml                         # web feed (e.g. in atom format)
-    ├── archive.html                     # archive page
-    └── index.html                       # index page
-```
+---
 
+### Get started
 
-## Usage
+1. [Fork the repository](https://github.com/muan/scribble/fork).
+2. Clone the repository to your computer.<br /> `git clone https://github.com/username/scribble`
+3. `bundle install`
+4. **Using older versions of Jekyll**<br />
+  Build and run Jekyll using `jekyll --server --auto`.<br />
+  **Using [Jekyll 1.0](http://blog.parkermoore.de/2013/05/06/jekyll-1-dot-0-released/)**<br />
+  Build Jekyll using `jekyll build`.<br />
+  Then run Jekyll using `jekyll serve --watch`, go to http://localhost:4000 for your site.
 
-To use - delete all sample posts in the `_posts` folder and
-change the settings in `_config.yml` to use your own `site.title`
-and `site.url`:
+---
 
-```
-title:   'Jekyll Minimal Theme'
-url:     'http://henrythemes.github.io/jekyll-minimal-theme'
-author:
-  name:  'Jekyll Minimal Theme Team'
-```
+### Make it yours
 
+1. I have extracted most user specific information to `_config.yml`, you should be able to set up almost everything from it.
+2. Change about.md for blog intro.
+3. For domain settings, see [the guide from GitHub](https://help.github.com/articles/setting-up-a-custom-domain-with-pages).
 
-## Color n Typography Settings (in `css/_settings.scss`)
+---
 
-Typography (Fonts):
+### Options
 
-~~~
-$font-family:       "Helvetica Neue", Helvetica, Arial, sans-serif;
+When writing a post, there are 3 options you can add to the header.
 
-$code-font-family:  Menlo, Monaco, "Courier New", monospace;
-~~~
+1. **disqus: y**<br />
+  If disqus is set to 'y', at the end of the post there will be a disqus thread, just like this one. To use disqus, you MUST [set up your own disqus account](http://disqus.com/).
 
-Colors:
+2. **share: y**<br />
+  An option for showing tweet and like button under a post.
 
-~~~
-$masthead-color:         #505050;
-$masthead-small-color:   #C0C0C0;
+3. **date**: 2013-05-06 18:07:17<br />
+  Date is not a required header since Jekyll reads the file name for date, this was added in only for the **signoff time**. (as shown at the end of this post) If you don't want the signoff time, go into `/includes/signoff.html` remove the `<span>`, and remove `{% include signoff.html %}` from `/layouts/post.html`.
 
-$post-title-color:       #303030;
-$post-date-color:        #9a9a9a;
+---
 
+### The end
 
-$body-color:            #515151;
-$body-background-color: #fff;
-
-$link-color:            #268bd2;
-
-$headings-color:        #313131;    // h1,h2,h3,h4,h5,h6
-
-$strong-color:          #303030;    // strong
-
-$pre-background-color:  #f9f9f9;    // pre
-
-$blockquote-color:        #7a7a7a;  // blockquote
-$blockquote-border-color: #e5e5e5;
-
-$table-border-color:         #e5e5e5;
-$table-odd-background-color: #f9f9f9;
-~~~
-
-A big thanks to the Poole theme; the `jekyll-minimal-theme` started out w/
-the typography and color settings from the Poole theme.
-
-
-## Alternative (Minimal) Jekyll Themes
-
-- Poole Theme by Mark Otto - [(Source)](https://github.com/poole/poole)
-
-- Pixyll Theme by John Otander - [(Source)](https://github.com/johnotander/pixyll)
-
-~~~
-in _main.scss:
-  font-family:     "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
-  code-font-family: Menlo, Monaco, "Courier New", monospace;
-  h1-h6|button|form|pagination|footer -font-family:
-                   'Lato', 'Helvetica Neue', Helvetica, sans-serif;
-
-in _basscss.scss:
-  font-family:       'Helvetica Neue', Helvetica, sans-serif;
-~~~
-
-- Hikari Theme by Mathieu Mayer-Mazzoli - [(Source)](https://github.com/m3xm/hikari-for-Jekyll)
-
-~~~
-in components/_syntax.scss:
-  code-font-family:    'Courier', monospace;
-in base/_variables.scss:
-  font-family:         'Open Sans', sans-serif;
-  variant-font-family: 'Lora', Georgia, serif;
-in base/_global.scss:
-  h1-h6-font-family:  'Open Sans', sans-serif;
-in base/_reset.scss:
-  font-family:         sans-serif;
-  code-font-family:    monospace, monospace;
-~~~
-
-
-### More Themes
-
-See the [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) directory.
-
-### More Quick Starter Wizard Scripts
-
-See the [Mr. Hyde's Scripts](https://github.com/mrhydescripts/scripts) library.
-
-
-## Questions? Comments?
-
-Send them along to the [wwwmake forum](http://groups.google.com/group/wwwmake).
-Thanks!
+Like it? [Tell me](http://twitter.com/muanchiou).<br/>
+Question? [Use GitHub Issues](https://github.com/muan/scribble/issues).

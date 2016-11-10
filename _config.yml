@@ -1,32 +1,23 @@
-###########
-# site.title, site.url, site.author.name
+title:            Scribble
+description:      A jekyll theme. Because I scribble.
+url:              # Site url, without a slash at the end.
+signoff:          # Your name.
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
-title:   'Jekyll Minimal Theme'
-author:
-  name:  'Jekyll Minimal Theme Team'
-
-## note: 
-#  use site.path in your templates to make it work for both protocols e.g. http and https
-#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
-path: /jekyll-minimal-theme  
-url:  'http://henrythemes.github.io/jekyll-minimal-theme'
-
-
-########
-# more settings
-
-markdown: kramdown
-
-sass:
-  sass_dir: css
-  style:    expanded
-
-permalink: /:title.html
-
-exclude:
-- README.md
-
-
-safe: true
-lsi: false
-
+links:
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          http://muan.co
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/muan
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
