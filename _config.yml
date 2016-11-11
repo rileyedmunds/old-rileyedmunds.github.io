@@ -9,17 +9,20 @@ google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 links:
   - name:         About
     url:          /about
-  - name:         Posts
-    url:          rileyedmunds.github.io
+  - name:         Ideas
+    url:          /
+    external:     false
   - name:         LinkedIn
     url:          http://linkedin.com/in/rileyedmunds
     external:     true
+    target:       _blank
   - name:         GitHub
     url:          http://github.com/rileyedmunds
     external:     true
+    target:       _blank
 highlighter:      pygments
 permalink:        pretty
-markdown:         redcarpet
+# markdown:         redcarpet
 redcarpet:
   extensions:
     - smart
