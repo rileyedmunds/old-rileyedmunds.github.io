@@ -10,8 +10,7 @@ links:
   - name:         About
     url:          /about
   - name:         Posts
-    url:          http://rileyedmunds.com
-    external:     true
+    url:          rileyedmunds.github.io
   - name:         LinkedIn
     url:          http://linkedin.com/in/rileyedmunds
     external:     true
