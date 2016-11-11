@@ -1,3 +1,3 @@
 
 
-Personal website at https://rileyedmunds.github.io/
+Personal website at www.rileyedmunds.com
