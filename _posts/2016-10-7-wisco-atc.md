@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wisconsin Trading Platform
-date: 2016-11-07 16:27:31
+date: 2016-11-07 12:27:31
 disqus: y
 ---
 

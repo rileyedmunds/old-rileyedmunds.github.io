@@ -6,5 +6,105 @@
     <link></link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
+      <item>
+        <title>Tensegrity Research</title>
+        <description>&lt;p&gt;Beginning in August, I&amp;rsquo;ve been working in a &lt;a href=&quot;http://best.berkeley.edu/best-research/best-berkeley-emergent-space-tensegrities-robotics/&quot;&gt;Robotics Lab&lt;/a&gt;. I spend ~8 hours/week working on control systems , software, and animations.&lt;/p&gt;
+
+&lt;p&gt;Here are a couple things I&amp;rsquo;ve been working on and thinking about:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Applying reinforcement learning.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Our lab&amp;rsquo;s collaborators at NASA Ames have developed a &lt;a href=&quot;https://arxiv.org/abs/1609.09049&quot;&gt;novel tweak on the guided policy search algorithm&lt;/a&gt;, that meshes localized decisions and global decisions to learn a gait for the tensegrity.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The algorithm processes a very limited feature set: while the researchers attempted to collect more data, they ended up using 12 accelerometer measurements from each rod. I would like to propose attaching IMUs to each rod for far more comprehensive measurements and more holistsic feature selection.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Incorporating vision.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As of this moment, the robot is controlled remotely by observing its current state and actuating motors according to which rods currently make up the base of the tensegrity and would most efficiently shift the center of mass ouside the base, and thus make the robot roll.&lt;/p&gt;
+
+&lt;p&gt;What is we could see in first person which rods form the base of the tensegrity? I propose including an fpv camera (within a gyroscope, to stay upright) within the payload box at the center of the robot. From there, we could write a simple image processing script to detect color-coded rods and thus infer which rods currently make up the base.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, for real planetary exploration, this feature is clearly mandatory.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Nov 2016 01:25:14 -0800</pubDate>
+        <link>/2016/11/09/tt4-mini/</link>
+        <guid isPermaLink="true">/2016/11/09/tt4-mini/</guid>
+      </item>
+    
+      <item>
+        <title>Wisconsin Trading Platform</title>
+        <description>&lt;p&gt;This semester, I&amp;rsquo;ve been helping my friend Sam work on a trading platform with a club he founded at the University of Wisconsin, Madison.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re writing code to automate trading in the FOREX market. A couple things we&amp;rsquo;ve done:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Hosted our package so it works real-time, around the clock&lt;/li&gt;
+&lt;li&gt;Writen code to pull in and parse market data&lt;/li&gt;
+&lt;li&gt;Written code that runs benchmark macro analysis market indicators on the market data&lt;/li&gt;
+&lt;li&gt;Integrated our indicator outputs with the trading platform API to execute trades based on our analysis&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt;Moving forward&lt;/h3&gt;
+
+&lt;p&gt;A couple things we&amp;rsquo;re working on in the next couple months:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Pass indicators of the state of the market to a classifiers trained on when it&amp;rsquo;s most beneficial to consult a particular market indicator&lt;/li&gt;
+&lt;li&gt;Pass the outputs from various indicators as features to a simple network trained on their respective results and the market outcome&lt;/li&gt;
+&lt;li&gt;Code up a more complex LSTM in tensorflow and throw it at the market indicator feature set.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Have ideas? Suggestions? Feel free to reach out at rileyedmunds@berkeley.edu&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 Nov 2016 04:27:31 -0800</pubDate>
+        <link>/2016/11/07/wisco-atc/</link>
+        <guid isPermaLink="true">/2016/11/07/wisco-atc/</guid>
+      </item>
+    
+      <item>
+        <title>Complex Sound</title>
+        <description>&lt;p&gt;This semester I&amp;rsquo;m writing a paper on complex convolutional neural networks. Here&amp;rsquo;s the big idea:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;ConvNets are amazing. They have practically solved computer vision. However, most machine learning architectures don&amp;rsquo;t train on complex domain data.&lt;/p&gt;
+
+&lt;p&gt;What if we could train ConvNets not only on magnitudes of pixel gradients and sounds, but also their relative phases?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Why do we want to incorporate phase?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;In many types of data (MRI imaging data, musical data, low frequency sound data) there seems to be vital information encoded in the complex domain.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;What challenges do we face when training CNNs on complex numbers?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Complex numbers are difficult to think about. What does it mean to threshold a complex number? What effect does a gaussian kernel have on backgropagation? How do you convolve pixel gradients or phase? Which activation functions are both meaningful in the complex domain and holomophic?&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;How do we plan on testing?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We&amp;rsquo;re building a real-valued environmental sound classification CNN in Caffe, and a complex counterpart, with appropriate layer functions that pass complex data through the network. We will then run the two head-to-head, and aim to beat the real-valued network with the complex version.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d like to give a huge thank you to Stella Yu and Pat Virtue from the International Computer Science Institute (ICSI) for their counsel and advising during this project. You&amp;rsquo;re both amazing researchers and inspiring mentors.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Oct 2016 08:01:42 -0700</pubDate>
+        <link>/2016/10/28/complex-sound/</link>
+        <guid isPermaLink="true">/2016/10/28/complex-sound/</guid>
+      </item>
+    
   </channel>
 </rss>

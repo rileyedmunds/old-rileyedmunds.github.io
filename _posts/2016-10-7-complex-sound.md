@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Complex Sound
-date: 2016-10-09 15:27:31
+date: 2016-10-28 15:01:42
 ---
 
 This semester I'm writing a paper on complex convolutional neural networks. Here's the big idea:
