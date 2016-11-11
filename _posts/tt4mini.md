@@ -17,10 +17,8 @@ The algorithm processes a very limited feature set: while the researchers attemp
 
 2. Incorporating vision.
 
-As of this moment, the robot is controlled remotely by observing its current state and actuating motors according to which
+As of this moment, the robot is controlled remotely by observing its current state and actuating motors according to which rods currently make up the base of the tensegrity and would most efficiently shift the center of mass ouside the base, and thus make the robot roll.
 
-3. How do we plan on testing?
+What is we could see in first person which rods form the base of the tensegrity? I propose including an fpv camera (within a gyroscope, to stay upright) within the payload box at the center of the robot. From there, we could write a simple image processing script to detect color-coded rods and thus infer which rods currently make up the base.
 
-We're building a real-valued environmental sound classification CNN in Caffe, and a complex counterpart, with appropriate layer functions that pass complex data through the network. We will then run the two head-to-head, and aim to beat the real-valued network with the complex version.
-
-I'd like to give a huge thank you to Stella Yu and Pat Virtue from the International Computer Science Institute (ICSI) for their counsel and advising during this project. You're both amazing researchers and inspiring mentors.
+Furthermore, for real planetary exploration, this feature is clearly mandatory.
