@@ -26,3 +26,8 @@ permalink:        pretty
 redcarpet:
   extensions:
     - smart
+
+gems:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
