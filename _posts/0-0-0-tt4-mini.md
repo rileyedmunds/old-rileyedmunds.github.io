@@ -1,8 +1,17 @@
 ---
 layout: post
 title: Tensegrity Research
-date: 2016-11-09 9:25:14
+date: 2016-12-09 9:25:14
 ---
+
+Update:
+
+The robot is complete! I will be posting more information soon!
+
+
+---
+
+Original Post: 
 
 Beginning in August, I've been working in a [Robotics Lab](http://best.berkeley.edu/best-research/best-berkeley-emergent-space-tensegrities-robotics/). I spend ~8 hours/week working on control systems , software, and animations.
 
