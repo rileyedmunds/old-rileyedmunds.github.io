@@ -6,7 +6,7 @@ date: 2016-12-09 9:25:14
 
 Update:
 
-The robot is complete! I will be posting more information soon!
+The robot is complete! I will be posting more information soon.
 
 
 ---
