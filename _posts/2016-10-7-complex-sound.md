@@ -15,10 +15,11 @@ Over winter break, we will also be working on our paper, 'Complex Convolutional 
 
 ---
 
+Original Post:
 
 This semester I'm writing a paper on complex-valued convolutional neural networks. Here's the big idea:
 
-Some data carry critical information in the complex domain. However, popular frameworks have effectively no support for complex-domain data.
+Some data carry critical information in the complex domain. However, popular frameworks have effectively no support for complex-valued data.
 
 What if we could train not only on magnitudes of pixel gradients and sounds, but also their relative phases?
 
@@ -33,7 +34,7 @@ Complex numbers are difficult to think about. What does it mean to threshold a c
 
 3. How do we plan on testing?
 
-We're building a real-valued environmental sound classification CNN in Caffe, and a complex counterpart, with appropriate layer functions that pass complex data through the network. We will then run the two head-to-head, and aim to beat the real-valued network with the complex version.
+We're building a real-valued environmental sound classification CNN in Caffe, and a complex counterpart, with appropriate layer functions that pass complex-valued data through the network. We will then run the two head-to-head, and aim to beat the real-valued network with the complex version.
 
 I'd like to give a huge thank you to Stella Yu and Pat Virtue from the International Computer Science Institute (ICSI) for their counsel and advising during this project. You're both amazing researchers and inspiring mentors.
 
