@@ -12,6 +12,9 @@ We found that incorporating phase leads to significant overfitting, so to reduce
 
 Over winter break, we will also be working on our paper, 'Complex Convolutional Neural Networks for Environmental Sound Classification.'
 
+![screenshot](https://github.com/rileyedmunds/rileyedmunds.github.io/tree/master/images/paper.png)
+
+
 
 ---
 
