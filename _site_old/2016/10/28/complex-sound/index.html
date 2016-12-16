@@ -1,0 +1,176 @@
+<html>
+  <head>
+    <meta content='Complex Sound - Riley F. Edmunds' property='og:title' />
+    <title>Complex Sound - Riley F. Edmunds</title>
+    <link href='/images/fav.png' rel='shortcut icon'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
+<link href='/stylesheets/style.css' rel='stylesheet' type='text/css' />
+<link href='/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
+<link href='/stylesheets/responsive.css' rel='stylesheet' type='text/css' />
+<!-- - -->
+<script src='/javascripts/jquery.js' type='text/javascript'></script>
+<script src='/javascripts/pd.js' type='text/javascript'></script>
+<script src='/javascripts/basics.js' type='text/javascript'></script>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<!-- - -->
+<meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+<meta content='text/html; charset=utf-8' http-equiv='content-type' />
+<meta content="/og.png" property="og:image" />
+<meta content="" property="fb:app_id" />
+
+  <meta content='/2016/10/28/complex-sound/' property='og:url' />
+  <meta content="This semester I'm writing a paper on complex convolutional neural networks. Here's the big idea:> ConvNets are amazin..." property='og:description' />
+  <meta content="article" property="og:type" />
+
+<!-- - -->
+<script type='text/javascript'>
+  //<![CDATA[
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '']);
+    _gaq.push(['_trackPageview']);
+    
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  //]]>
+</script>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  </head>
+  <body>
+    <header>
+<a id="go-back-home" href=""><img src="/images/scribble.png" alt="scribble" width="59" height="59"></a>
+<p>Riley F. Edmunds</p>
+</header>
+    <div id='container'>
+      <div class="block">
+  
+    <a target="_top"
+       class="main" 
+       href="/about">
+       About
+     </a>
+  
+    <a target="_top"
+       class="main" 
+       href="/">
+       Ideas
+     </a>
+  
+    <a target="_blank"
+       class="main" 
+       href="http://linkedin.com/in/rileyedmunds">
+       LinkedIn
+     </a>
+  
+    <a target="_blank"
+       class="main" 
+       href="http://github.com/rileyedmunds">
+       GitHub
+     </a>
+  
+</div>
+      <section class="paging">
+  
+  
+    <div class="right">
+      <a href="/2016/11/07/wisco-atc/">
+        ›
+      </a>
+    </div>
+  
+</section>
+      <div class="content">
+        <section class='post'>
+          <h1 class="upcase">
+            <div class='date'>28 Oct 2016</div>
+            Complex Sound
+          </h1>
+          <p>This semester I’m writing a paper on complex convolutional neural networks. Here’s the big idea:</p>
+
+<blockquote>
+  <p>ConvNets are amazing. They have practically solved computer vision. However, most machine learning architectures don’t train on complex domain data.</p>
+
+  <p>What if we could train ConvNets not only on magnitudes of pixel gradients and sounds, but also their relative phases?</p>
+</blockquote>
+
+<ol>
+  <li>Why do we want to incorporate phase?</li>
+</ol>
+
+<p>In many types of data (MRI imaging data, musical data, low frequency sound data) there seems to be vital information encoded in the complex domain.</p>
+
+<ol>
+  <li>What challenges do we face when training CNNs on complex numbers?</li>
+</ol>
+
+<p>Complex numbers are difficult to think about. What does it mean to threshold a complex number? What effect does a gaussian kernel have on backgropagation? How do you convolve pixel gradients or phase? Which activation functions are both meaningful in the complex domain and holomophic?</p>
+
+<ol>
+  <li>How do we plan on testing?</li>
+</ol>
+
+<p>We’re building a real-valued environmental sound classification CNN in Caffe, and a complex counterpart, with appropriate layer functions that pass complex data through the network. We will then run the two head-to-head, and aim to beat the real-valued network with the complex version.</p>
+
+<p>I’d like to give a huge thank you to Stella Yu and Pat Virtue from the International Computer Science Institute (ICSI) for their counsel and advising during this project. You’re both amazing researchers and inspiring mentors.</p>
+
+          <br />
+<p>
+  Til next time,<br/>
+  Riley F. Edmunds
+  <span class="muted">at 08:01</span>
+</p>
+<p>
+  <img src="/images/scribble3.png" alt="scribble" /> 
+</p>
+
+
+        </section>
+      </div>
+      
+
+      
+      <div class="block">
+  
+    <a target="_top"
+       class="main" 
+       href="/about">
+       About
+     </a>
+  
+    <a target="_top"
+       class="main" 
+       href="/">
+       Ideas
+     </a>
+  
+    <a target="_blank"
+       class="main" 
+       href="http://linkedin.com/in/rileyedmunds">
+       LinkedIn
+     </a>
+  
+    <a target="_blank"
+       class="main" 
+       href="http://github.com/rileyedmunds">
+       GitHub
+     </a>
+  
+</div>
+    </div>
+    <footer>
+  <a href="http://linkedin.com/in/rileyedmunds" class="muted">contact: rileyedmunds@berkeley.edu</a>
+  <br />
+  <br />
+  <img src="/images/scribble2.png" alt="scribble" /> 
+</footer>
+  </body>
+</html>
