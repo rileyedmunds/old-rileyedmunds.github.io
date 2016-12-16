@@ -8,9 +8,9 @@ google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
   - name:         About
-    url:          /
+    url:          /about
   - name:         Ideas
-    url:          /ideas
+    url:          /
     external:     false
   - name:         LinkedIn
     url:          http://linkedin.com/in/rileyedmunds
