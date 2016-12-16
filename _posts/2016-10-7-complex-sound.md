@@ -4,22 +4,23 @@ title: Complex Sound
 date: 2016-10-28 15:01:42
 ---
 
-Update (December 15th):
+Update:
 
 As of December 1st, the complex valued network is functional. We have completed the pre-processing pipeline, tested on real valued data, and complex-valued data. 
 
-We found that incorporating phase leads to significant overfitting, so we will be augmenting our dataset and writing a complex dropout Caffe layer.
+We found that incorporating phase leads to significant overfitting, so to reduce this effect, we will be augmenting our dataset and writing a complex dropout Caffe layer.
 
-Over winter break, we will also be working on our paper, 'Complex Convolutional Neural Networks for Environmental Sound Classification'. 
+Over winter break, we will also be working on our paper, 'Complex Convolutional Neural Networks for Environmental Sound Classification.'
+
 
 ---
 
 
 This semester I'm writing a paper on complex-valued convolutional neural networks. Here's the big idea:
 
-> Some data carry critical information in the complex domain. However, popular frameworks have effectively no support for complex-domain data.
+Some data carry critical information in the complex domain. However, popular frameworks have effectively no support for complex-domain data.
 
-> What if we could train not only on magnitudes of pixel gradients and sounds, but also their relative phases?
+What if we could train not only on magnitudes of pixel gradients and sounds, but also their relative phases?
 
 
 1. Why do we want to incorporate phase?
