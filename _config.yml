@@ -2,7 +2,6 @@ title:            Riley F. Edmunds
 description:      Undergraduate at UC Berkeley
 url:              #blank
 signoff:          Riley F. Edmunds
-rileyedmunds@berkely.edu
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
