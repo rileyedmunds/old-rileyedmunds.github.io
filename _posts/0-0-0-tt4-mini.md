@@ -30,7 +30,9 @@ Upgrades since last TT4-Mini release:
     - Designed new PCB to fit within spherical payload box.
 
 
-[demo](https://www.youtube.com/watch?v=vTpg6qIS8t8&vq=hd720)
+See our robot in action!
+
+[YOUTUBE VIDEO DEMO](https://www.youtube.com/watch?v=vTpg6qIS8t8&vq=hd720)
 
 
 ![robot_top](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/table.JPG)
