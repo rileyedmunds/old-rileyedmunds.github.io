@@ -35,9 +35,9 @@ Upgrades since last TT4-Mini release:
 
 ![robot_top](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/table.JPG)
 
-![robot_side](https://github.com/rileyedmunds/rileyedmunds.github.io/blob/master/images/tensegrity/side_table.JPG)
+![robot_side](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/sidetable.JPG)
 
-![pcb schematic](https://github.com/rileyedmunds/rileyedmunds.github.io/blob/master/images/tensegrity/schematic_pcb.png)
+![pcb schematic](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/schematic.JPG)
 
 ![slave_pcb](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/pcb.JPG)
 
