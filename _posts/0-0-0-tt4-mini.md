@@ -13,23 +13,26 @@ Upgrades since last TT4-Mini release:
 
 1. Controller
 
-    - Build ergonomic physical controller, future-proofed for future development (space for additional control modes)
-    - Integrated RF communication using XBee Wireless Modules in lieu of faulty bluetooth connection.
-    - Rewrote control software for increased efficiency and reliability, emphasizing code modularity in preparation for automatic control mode. 
+    - Built ergonomic physical controller, future-proofed for future development (space for additional control modes)
+    - Integrated RF communication using XBee Wireless Modules in lieu of faulty Bluetooth connection.
+    - Rewrote control software for increased efficiency and reliability, emphasizing code modularity in preparation for 'automatic' control mode. 
 
 2. Tensegrirty Structure
 
     - Extended rod length from 10" to 12".
-    - Designed new motor covers.
+    - Designed new, sturdy motor covers.
     - Upgraded from plastic endcaps to metallic endcaps.
     - Designed and printed new spherical payload box structure.
 
-3. The slave PCB within the tesnsegrity structure
+3. Receiver
 
-    - Refactored slave code to efficiently parse and execute RF motor commands.
+    - Refactored receiver code to efficiently parse and immediately execute motor commands received via RF.
     - Designed new PCB to fit within spherical payload box.
   
-<br><br>
+<br>
+
+[See our robot in action! (YOUTUBE)](https://www.youtube.com/watch?v=vTpg6qIS8t8&vq=hd720){:target="_blank"}
+
 
 The TT4-Mini:
 
@@ -47,8 +50,6 @@ Physical Controller prototype with breadboard:
 
 ![controller prototype](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/controller.JPG)
 
-
-[See our robot in action! (YOUTUBE)](https://www.youtube.com/watch?v=vTpg6qIS8t8&vq=hd720){:target="_blank"}
 
 ---
 
