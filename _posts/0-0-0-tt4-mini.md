@@ -29,9 +29,7 @@ Upgrades since last TT4-Mini release:
     - Refactored slave code to efficiently parse and execute RF motor commands.
     - Designed new PCB to fit within spherical payload box.
   
-<br><br><br><br>
-
-See our robot in [action](https://www.youtube.com/watch?v=vTpg6qIS8t8&vq=hd720){:target="_blank"}!
+<br><br>
 
 The TT4-Mini:
 
@@ -48,6 +46,9 @@ Payload Box PCB:
 Physical Controller prototype with breadboard:
 
 ![controller prototype](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/controller.JPG)
+
+
+[See our robot in action! (YOUTUBE)](https://www.youtube.com/watch?v=vTpg6qIS8t8&vq=hd720){:target="_blank"}
 
 ---
 
