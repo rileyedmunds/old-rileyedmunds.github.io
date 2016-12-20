@@ -47,7 +47,9 @@ Payload Box PCB:
 Physical Controller prototype with breadboard:
 
 ![controller prototype](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/controller.JPG)
-
+    
+    
+Next semester I'm hoping to dive into development and testing of the 'automatic' control mode!
 
 ---
 
