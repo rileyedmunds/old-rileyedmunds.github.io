@@ -9,6 +9,39 @@ Update:
 The robot is complete! I will be posting more information soon.
 
 
+Upgrades since last TT4-Mini release:
+
+1. Controller
+
+    - Build ergonomic physical controller, future-proofed for future development (space for additional control modes)
+    - Integrated RF communication using XBee Wireless Modules in lieu of faulty bluetooth connection.
+    - Rewrote control software for increased efficiency and reliability, emphasizing code modularity in preparation for automatic control mode. 
+
+2. Tensegrirty Structure
+
+    - Extended rod length from 10" to 12".
+    - Designed new motor covers.
+    - Upgraded from plastic endcaps to metallic endcaps.
+    - Designed and printed new spherical payload box structure.
+
+3. The slave PCB within the tesnsegrity structure
+
+    - Refactored slave code to efficiently parse and execute RF motor commands.
+    - Designed new PCB to fit within spherical payload box.
+
+
+![demo](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/demo.mov)
+
+![robot_top](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/table.JPG)
+
+![robot_side](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/side_table)
+
+![pcb schematic](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/schematic_pcb)
+
+![slave_pcb](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/pcb.JPG)
+
+![controller prototype](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/controller.JPG
+
 ---
 
 Original Post: 
