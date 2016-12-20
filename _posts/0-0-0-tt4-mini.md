@@ -30,17 +30,18 @@ Upgrades since last TT4-Mini release:
     - Designed new PCB to fit within spherical payload box.
 
 
-![demo](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/demo.mov)
+<iframe  title="demo" width="480" height="390" src="https://www.youtube.com/watch?v=vTpg6qIS8t8&feature=youtu.be" frameborder="0" allowfullscreen></iframe>
+
 
 ![robot_top](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/table.JPG)
 
-![robot_side](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/side_table)
+![robot_side](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/side_table.jpg)
 
-![pcb schematic](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/schematic_pcb)
+![pcb schematic](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/schematic_pcb.jpg)
 
 ![slave_pcb](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/pcb.JPG)
 
-![controller prototype](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/controller.JPG
+![controller prototype](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/controller.JPG)
 
 ---
 
