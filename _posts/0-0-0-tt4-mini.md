@@ -31,7 +31,7 @@ Here's what we built...
   
 <br>
 
-[See our robot in action! (YOUTUBE)](https://www.youtube.com/watch?v=vTpg6qIS8t8&vq=hd720){:target="_blank"}
+[See our robot in action! (YOUTUBE)](https://www.youtube.com/watch?v=1IZeTiKoyLw&vq=hd720){:target="_blank"}
 
 
 ![robot_side](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/sidetable.JPG)
