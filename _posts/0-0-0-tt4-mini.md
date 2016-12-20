@@ -30,18 +30,26 @@ Upgrades since last TT4-Mini release:
     - Designed new PCB to fit within spherical payload box.
 
 
+
 See our robot in action!
 
-[YOUTUBE VIDEO DEMO](https://www.youtube.com/watch?v=vTpg6qIS8t8&vq=hd720)
+[YOUTUBE VIDEO DEMO](https://www.youtube.com/watch?v=vTpg6qIS8t8&vq=hd720){:target="_blank"}
 
+The TT4-Mini:
 
 ![robot_top](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/table.JPG)
 
 ![robot_side](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/sidetable.JPG)
 
+Payload box PCB Schematics:
+
 ![pcb schematic](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/schematic.JPG)
 
+Payload Box PCB:
+
 ![slave_pcb](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/pcb.JPG)
+
+Physical Controller prototype with breadboard:
 
 ![controller prototype](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/controller.JPG)
 
