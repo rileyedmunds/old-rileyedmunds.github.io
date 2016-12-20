@@ -44,7 +44,7 @@ Payload Box PCB:
 
 ![slave_pcb](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/pcb.JPG)
 
-Physical Controller prototype with breadboard:
+Physical controller prototype:
 
 ![controller prototype](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/controller.JPG)
     
