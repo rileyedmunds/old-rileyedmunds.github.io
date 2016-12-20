@@ -5,9 +5,11 @@ date: 2016-12-19 6:25:19
 ---
 
 
-THE TENSEGRITY TT4-MINI PROJECT
+On December 15th, we concluded development of the TT4-Mini spherical tensegrity robot. Initially developed for planetary scouting, this smaller scale vehicle will be used as a test-bed for modeling robotic actuation and behavior across simulated planetary surfaces.
 
-On December 15th, we concluded the development of the TT4-Mini spherical tensegrity robot. Initially developed for planetary scouting, this smaller scale vehicle will be used as a test-bed for modeling robotic actuation and behavior across simulated planetary surfaces.
+
+
+Here's what we built...
 
 1. Controller
 
