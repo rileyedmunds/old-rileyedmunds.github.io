@@ -34,8 +34,6 @@ Upgrades since last TT4-Mini release:
 [See our robot in action! (YOUTUBE)](https://www.youtube.com/watch?v=vTpg6qIS8t8&vq=hd720){:target="_blank"}
 
 
-The TT4-Mini:
-
 ![robot_side](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/sidetable.JPG)
 
 Payload box PCB Schematics:
