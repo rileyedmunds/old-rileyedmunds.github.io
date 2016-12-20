@@ -28,9 +28,10 @@ Upgrades since last TT4-Mini release:
 
     - Refactored slave code to efficiently parse and execute RF motor commands.
     - Designed new PCB to fit within spherical payload box.
-
-
-
+  
+  
+  
+  
 See our robot in action!
 
 [YOUTUBE VIDEO DEMO](https://www.youtube.com/watch?v=vTpg6qIS8t8&vq=hd720){:target="_blank"}
