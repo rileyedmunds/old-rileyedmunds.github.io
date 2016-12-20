@@ -30,14 +30,14 @@ Upgrades since last TT4-Mini release:
     - Designed new PCB to fit within spherical payload box.
 
 
-<iframe  title="demo" width="480" height="390" src="https://www.youtube.com/watch?v=vTpg6qIS8t8&feature=youtu.be" frameborder="0" allowfullscreen></iframe>
+[demo](https://www.youtube.com/watch?v=vTpg6qIS8t8&vq=hd720)
 
 
 ![robot_top](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/table.JPG)
 
-![robot_side](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/side_table.jpg)
+![robot_side](https://github.com/rileyedmunds/rileyedmunds.github.io/blob/master/images/tensegrity/side_table.JPG)
 
-![pcb schematic](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/schematic_pcb.jpg)
+![pcb schematic](https://github.com/rileyedmunds/rileyedmunds.github.io/blob/master/images/tensegrity/schematic_pcb.png)
 
 ![slave_pcb](https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/tensegrity/pcb.JPG)
 
