@@ -26,4 +26,4 @@ A couple things we're working on in the next couple months:
 
 ---
 
-Have ideas? Suggestions? Feel free to reach out at rileyedmunds@berkeley.edu
+Have ideas? Suggestions? Feel free to reach out at edmunds@ml.berkeley.edu
