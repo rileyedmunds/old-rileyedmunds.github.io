@@ -10,7 +10,7 @@ links:
   - name:         About
     url:          /about
   - name:         Ideas
-    url:          /ideas
+    url:          /
     external:     false
   - name:         LinkedIn
     url:          http://linkedin.com/in/rileyedmunds
