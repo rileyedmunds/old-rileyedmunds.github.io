@@ -1,0 +1,40 @@
+<p>Update:</p>
+
+<p>As of December 1st, the complex valued network is functional. We have completed the pre-processing pipeline, tested on real valued data, and complex-valued data. </p>
+
+<p>We found that incorporating phase leads to significant overfitting, so to reduce this effect, we will be augmenting our dataset and writing a complex dropout Caffe layer.</p>
+
+<p>Over winter break, we will also be working on our paper, ‘Complex Convolutional Neural Networks for Environmental Sound Classification.’</p>
+
+<p><img src="https://raw.githubusercontent.com/rileyedmunds/rileyedmunds.github.io/master/images/paper.png" alt="paper" /></p>
+
+<hr />
+
+<p>Original Post:</p>
+
+<p>This semester I’m writing a paper on complex-valued convolutional neural networks. Here’s the big idea:</p>
+
+<p>Some data carry critical information in the complex domain. However, popular frameworks have effectively no support for complex-valued data.</p>
+
+<p>What if we could train not only on magnitudes of pixel gradients and sounds, but also their relative phases?</p>
+
+<ol>
+  <li>Why do we want to incorporate phase?</li>
+</ol>
+
+<p>In many types of data (MRI imaging data, musical data, low frequency sound data) there seems to be vital information encoded in the complex domain.</p>
+
+<ol>
+  <li>What challenges do we face when training CNNs on complex numbers?</li>
+</ol>
+
+<p>Complex numbers are difficult to think about. What does it mean to threshold a complex number? What effect does a gaussian kernel have on backgropagation? How do you convolve pixel gradients or phase? Which activation functions are both meaningful in the complex domain and holomophic?</p>
+
+<ol>
+  <li>How do we plan on testing?</li>
+</ol>
+
+<p>We’re building a real-valued environmental sound classification CNN in Caffe, and a complex counterpart, with appropriate layer functions that pass complex-valued data through the network. We will then run the two head-to-head, and aim to beat the real-valued network with the complex version.</p>
+
+<p>I’d like to give a huge thank you to Stella Yu and Pat Virtue from the International Computer Science Institute (ICSI) for their counsel and advising during this project. You’re both amazing researchers and inspiring mentors.</p>
+
