@@ -13,7 +13,7 @@ Here's what we built...
 
 1. Controller
 
-    - Built ergonomic physical controller, future-proofed for future development (space for additional control modes)
+    - Built ergonomic physical controller, future-proofed for future development (space for additional control modes).
     - Integrated RF communication using XBee Wireless Modules in lieu of faulty Bluetooth connection.
     - Rewrote control software for increased efficiency and reliability, emphasizing code modularity in preparation for 'automatic' control mode. 
 
