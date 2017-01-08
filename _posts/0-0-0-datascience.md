@@ -26,13 +26,18 @@ all[i].SourceElement().parentNode.className += ' has-jax';
 
 
 
-This winter break, before diving into the [Neural Network Zoo Challenge](http://rileyedmunds.com/2017/01/08/zoo/){:target="_blank"} I coded up some simple data science models. 
+This winter break, before diving into the [Neural Network Zoo Challenge](http://rileyedmunds.com/2017/01/08/zoo/){:target="_blank"}, I coded up some simple data science models. 
 
 Here's my [code on GitHub](https://github.com/rileyedmunds/datascience){:target="_blank"}, and here are some details behind the algorithms...
   
   
-- Singular Value Decomposition
-- k-Nearest Neighbors  
+**Singular Value Decomposition**
+- *uses* dimensionality reduction
+- *algorithm* 
+1. Start with matrix $A$.
+2. Find $V$, $S$, and $U$ such that$\sum_{n=1}^{\infty} 2^{-n} = 1$ inside text
+
+- **k-Nearest Neighbors**
 - k-Means       
 - Naive Bayes          
 - Support Vector Machine      
