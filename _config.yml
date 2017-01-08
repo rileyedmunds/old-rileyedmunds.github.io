@@ -1,4 +1,4 @@
-title:            Riley Edmunds
+title:            Riley F. Edmunds
 description:      Undergraduate at UC Berkeley
 url:              #blank
 signoff:          Riley F. Edmunds
@@ -11,7 +11,6 @@ links:
     url:          /about
   - name:         Ideas
     url:          /
-    external:     false
   - name:         LinkedIn
     url:          http://linkedin.com/in/rileyedmunds
     external:     true
