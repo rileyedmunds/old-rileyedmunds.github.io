@@ -26,7 +26,7 @@ all[i].SourceElement().parentNode.className += ' has-jax';
 
 
 
-This winter break, I coded up some simple data science models. 
+This winter break, before diving into the [Neural Network Zoo Challenge](http://rileyedmunds.com/2017/01/08/zoo/) I coded up some simple data science models. 
 
 Here's my [code on GitHub](https://github.com/rileyedmunds/datascience){:target="_blank"}, and here are some details behind the algorithms...
   
