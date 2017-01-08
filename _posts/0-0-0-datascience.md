@@ -32,9 +32,6 @@ Here's my [code on GitHub](https://github.com/rileyedmunds/datascience){:target=
   
   
 - Singular Value Decomposition
-purpose: dimensionality reduction, increase training speed
-algorithm:
-details:
 - k-Nearest Neighbors  
 - k-Means       
 - Naive Bayes          
