@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Complex Sound
+title: Complex Sound Research
 date: 2016-12-15 5:01:42
 ---
 
