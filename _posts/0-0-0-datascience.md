@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vanilla Data Science Models
-date: 2017-1-8 9:03:54
+date: 2017-1-7 9:03:54
 ---
 
 <style TYPE="text/css">
