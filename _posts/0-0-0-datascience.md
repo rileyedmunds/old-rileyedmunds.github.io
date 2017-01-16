@@ -31,14 +31,14 @@ This winter break, before diving into the [Neural Network Zoo Challenge](http://
 Here's my [code on GitHub](https://github.com/rileyedmunds/datascience){:target="_blank"}. Included in the Jupyter Notebook are some details behind the algorithms...
   
   
-**Singular Value Decomposition**  
-**k-Nearest Neighbors**  
-**k-Means**        
-**Naive Bayes**         
-**Support Vector Machine**      
-**Logistic Regression**     
-**Decision Tree**   
-**Random Forest**  
+-**Singular Value Decomposition**  
+-**k-Nearest Neighbors**  
+-**k-Means**        
+-**Naive Bayes**         
+-**Support Vector Machine**      
+-**Logistic Regression**     
+-**Decision Tree**   
+-**Random Forest**  
 
     
 
